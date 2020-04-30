@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="115.0" prefWidth="250.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Input">
+   <children>
+      <JFXTextField fx:id="txt" layoutX="13.0" layoutY="14.0" prefHeight="39.0" prefWidth="225.0" promptText="Option Name ..." styleClass="text-input" />
+      <JFXButton fx:id="submit" layoutX="14.0" layoutY="63.0" prefHeight="39.0" prefWidth="110.0" styleClass="button_rect_green" text="Submit" />
+      <JFXButton fx:id="cancel" layoutX="133.0" layoutY="63.0" prefHeight="39.0" prefWidth="103.0" styleClass="button_rect_red" text="Cancel" />
+   </children>
+</AnchorPane>
